@@ -1,0 +1,12 @@
+# Build outputs
+*.dll
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.ilk
+build/
+# Never commit game files or release archives
+*.xex
+*.zip
