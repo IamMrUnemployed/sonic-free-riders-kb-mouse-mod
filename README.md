@@ -1,9 +1,9 @@
 # Sonic Free Riders – PC Keyboard & Mouse Mod
-### Classic Riders Handling Edition · v1.0 · by **@mrunemployed**
+### Classic Riders Handling Edition · v1.0 · by **MrUnemployed**
 
 A drop-in XInput wrapper (`xinput1_4.dll` / `xinput1_3.dll`) that gives **Sonic Free Riders** (Xbox 360, played on **Xenia Canary**) full keyboard & mouse controls — no Kinect, no gamepad needed.
 
-![Features](docs/images/features.png)
+![Full-speed boost on Forgotten Tomb](docs/gameplay/04_racing_boost.jpg)
 
 ## Features
 - **Native keyboard & mouse** – analog steering from the mouse or keys.
@@ -27,7 +27,10 @@ Grab the ready-to-use ZIP from **[Releases](../../releases/latest)**.
 
 ## Default controls
 
-![Controls](docs/images/controls.png)
+| | |
+|---|---|
+| ![Race start](docs/gameplay/03_start_line.jpg) | ![Carving through the ring line](docs/gameplay/05_carving_rings.jpg) |
+| ![Track select](docs/gameplay/02_track_select.jpg) | ![Main menu](docs/gameplay/01_main_menu.jpg) |
 
 ### Racing
 | Action | Keyboard | Mouse |
@@ -62,8 +65,6 @@ Grab the ready-to-use ZIP from **[Releases](../../releases/latest)**.
 | `F9` | Toggle input mode (Keyboard+Mouse ⇄ Keyboard-Only) |
 
 ## Kinect-only moves on PC
-
-![Special missions guide](docs/images/special-missions.png)
 
 | Kinect motion | On PC |
 |---|---|
@@ -102,12 +103,17 @@ The DLL forwards all real controller calls to the system `xinput1_4.dll`, so a c
 src/        xinput_kb_mouse.cpp, xinput.def
 config/     sonic_kb_mouse.ini (defaults)
 launcher/   Play_Sonic_Free_Riders.bat
-docs/       README.txt, images/
+docs/       README.txt, gameplay/ (screenshots)
 build.bat
 ```
 
 ## Credits
-- **@mrunemployed** – design, code, input tuning and documentation.
+**MrUnemployed** – design, code, input tuning and documentation.
+- GitHub: [IamMrUnemployed](https://github.com/IamMrUnemployed)
+- GameJolt: [@MrUnemployed](https://gamejolt.com/@MrUnemployed)
+- Discord: `iammrunemployed`
+
+
 - Sonic the Hedgehog and Sonic Free Riders © SEGA. Xenia Canary © the Xenia team.
 
 Non-commercial fan tool. Not affiliated with SEGA or Microsoft. Source code released under the [MIT License](LICENSE).
